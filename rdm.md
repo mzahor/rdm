@@ -77,3 +77,23 @@ public class Flat {
     // the rest of OO-style methods
 }
 ```
+
+
+## Structure
+
+1. Imagine case
+2. Standard approach (layered architecture)
+3. Advantages
+4. When the prolems come
+5. Hello ADM
+6. What is domain model?
+6. RDM vs ADM
+7. ok, but what about architecture?
+8. hexagonal architecture
+9. golden hammer?
+10. NO! 
+11. So, when to use?
+12. Behavioral vs data centric
+12. More detailed comparison
+14. Summary - think twice
+13. What about QuickHelp?
