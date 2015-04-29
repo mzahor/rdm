@@ -59,6 +59,15 @@ RDM - Rich Domain Model
 
 ## ADM approach
 ```
+public class Flat {
+    public int Number { get; set; }
+}
+
+public class Tenant {
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
+
 public class RentService {
     public void RentFlat(int flatNumber, int tenantId);
     public void ReleaseFlat(int number);
@@ -72,12 +81,41 @@ public class RentService {
 ```
 public class Flat {
     public int Number { get; set; }
-    public void Rent(int number);
+    public void RentFor(Tenant tenant);
     public void Release();
+    // the rest of OO-style methods
+}
+
+public class Tenant {
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public void RentFlat(Flat flat);
+    public void ReleaseFlat();
     // the rest of OO-style methods
 }
 ```
 
+---
+
+## Ok, what about architecture?
+UI, database, external services, notifications?
+
+---
+
+## Hexagonal Architecture
+![](/images/hex-architecture.png)
+
+---
+
+![](/images/golden-hummer.png)
+
+---
+
+# NO!
+
+---
+
+## When DDD worth the effort?
 
 ## Structure
 
