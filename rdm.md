@@ -118,7 +118,7 @@ UI, database, external services, notifications?
 
 ---
 
-![](/images/golden-hummer.png)
+![](/images/golden-hammer.png)
 
 ---
 
@@ -149,3 +149,14 @@ Data centric app - NO
 ---
 
 ![](/images/thanks.png)
+
+---
+
+## Resources
+* http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
+* http://fideloper.com/hexagonal-architecture
+* http://alistair.cockburn.us/Hexagonal+architecture
+* http://www.slideshare.net/AlexandervanTrijffel/applying-domaindriven-design-to-craft-rich-domain-models
+* http://martinfowler.com/bliki/AnemicDomainModel.html
+
+Slides created using awesome tool called reveal-md https://github.com/webpro/reveal-md
