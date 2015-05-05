@@ -103,7 +103,18 @@ UI, database, external services, notifications?
 ---
 
 ## Hexagonal Architecture
-![](/images/hex-architecture.png)
+
+![](/images/hex-arch.jpg)
+
+---
+
+## What do we get?
+
+1. Testability.
+2. Frameworks independecy.
+3. UI independecy.
+4. Database independecy.
+5. Any external agency independecy.
 
 ---
 
@@ -112,6 +123,13 @@ UI, database, external services, notifications?
 ---
 
 # NO!
+
+---
+
+## Does DDD worth the effort?
+Behavioral-centric app - YES 
+
+Data centric app - NO
 
 ---
 
@@ -124,22 +142,10 @@ UI, database, external services, notifications?
 |Innovative|Unknown|?|Yes|
 |Enterprize system, Core system|High|>40|Yes|
 
+---
 
-## Structure
+# What about QuickHelp?
 
-1. Imagine case
-2. Standard approach (layered architecture)
-3. Advantages
-4. When the prolems come
-5. Hello ADM
-6. What is domain model?
-6. RDM vs ADM
-7. ok, but what about architecture?
-8. hexagonal architecture
-9. golden hammer?
-10. NO! 
-11. So, when to use?
-12. Behavioral vs data centric
-12. More detailed comparison
-14. Summary - think twice
-13. What about QuickHelp?
+---
+
+![](/images/thanks.png)
