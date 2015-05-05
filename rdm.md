@@ -116,6 +116,14 @@ UI, database, external services, notifications?
 ---
 
 ## When DDD worth the effort?
+|System Type|Domain logic complexity|Use cases|DDD payoff?|
+|-----|-----|-----|-----|
+|CRUD, Master Data, Lookup|Low|Any|No|
+|Simple, small, utility|Low|<30|No|
+|Departmental, narrow scoped|Low|30<x<40|Could be|
+|Innovative|Unknown|?|Yes|
+|Enterprize system, Core system|High|>40|Yes|
+
 
 ## Structure
 
