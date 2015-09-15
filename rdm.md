@@ -37,18 +37,17 @@ Say "Hello" to  ADM
 ----
 
 ## Non-testability
-How would you test bloated services which are heavily relaying on DA layer?
+How would you test bloated services which are heavily relying on DA layer?
 
 ----
 
 ## Vendor/technology lock-in
-Can you change MS SQL to MongoDB? Cassandra?
+How much effort would it take to change MS SQL with MongoDB?
 
 ----
 
 ## Portability
-Imagine you wrote in in Java.
-Can you run it on iOS?
+You cannot transpile ADM code since it uses base library heavily.
 
 ---
 
